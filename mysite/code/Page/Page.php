@@ -1,15 +1,11 @@
 <?php
+
 class Page extends SiteTree {
-
-	private static $db = array(
-	);
-
-	private static $has_one = array(
-	);
-
+	private static $db = array();
+	private static $has_one = array();
 }
-class Page_Controller extends ContentController {
 
+class Page_Controller extends ContentController {
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
 	 * permissions or conditions required to allow the user to access it.
@@ -25,19 +21,13 @@ class Page_Controller extends ContentController {
 	 *
 	 * @var array
 	 */
-	private static $allowed_actions = array (
-	);
+	private static $allowed_actions = array();
 
 	public function init() {
 		parent::init();
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
 		// Requirements::javascript("http://code.jquery.com/jquery-2.1.1.min.js");		
-
-
-		
-
 	}
-
 }
 

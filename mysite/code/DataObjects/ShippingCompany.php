@@ -1,29 +1,28 @@
 <?php
 
-class ShippingCompany extends DataObject{ 
-	
+class ShippingCompany extends DataObject {
+
 	private static $db = [
 		'Token' => 'Varchar',
 		'Name' => 'Varchar'
-	]; 
+	];
 
-    private static $has_many = [
-        'Ship' => 'ShipPage'
-    ];
+	private static $has_many = [
+		'Ship' => 'ShipPage'
+	];
 
 	private static $field_labels = array(
-      'token' => 'ShippingCompany' 
-    );
+		'token' => 'ShippingCompany'
+	);
 
 	static $searchable_fields = array(
-      'Name'
-   );
+		'Name'
+	);
 
-    private static $summary_fields = array(
-      'Token',
-      'Name'
-   );
-
+	private static $summary_fields = array(
+		'Token',
+		'Name'
+	);
 
 
 }
