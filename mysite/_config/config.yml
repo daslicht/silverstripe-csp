@@ -9,12 +9,11 @@ After:
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
   theme: 'foundation'
+  # display template filenames as comments in the html output
+  source_file_comments: true
 
 Ships:
   folder_root: 'Ships'
-
-Director:
-  environment_type: 'dev'
 
 # GalleryPage:
 #   extensions: 
