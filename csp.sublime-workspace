@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"private"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"sh",
+				"shareHelper"
+			],
+			[
+				"get",
+				"getExtension"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"y",
+				"Yes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "mysite/code/Page/WelcomePage.php",
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix",
+				"name": "HomePage.php"
+			}
+		},
+		{
+			"file": "mysite/code/Page/ShipPage.php",
+			"settings":
+			{
+				"buffer_size": 2861,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/foundation/templates/Layout/ShipPage.ss",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/foundation/templates/Layout/DemoHomePage.ss",
+			"settings":
+			{
+				"buffer_size": 4062,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/foundation/templates/Layout/WelcomePage.ss",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/foundation/templates/Page.ss",
+			"settings":
+			{
+				"buffer_size": 2226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "csp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 233.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"li",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"liv",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLint Settings – User"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 516.0
+	},
+	"console":
+	{
+		"height": 434.0,
+		"history":
+		[
+			"bash",
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/ShipPage.js",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/code/Page/Page.php",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/iView/css/skin 1/style.css",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/iView/js/iview.js",
+		"/Users/daslicht/Public/silverstripe/capesideport/themes/simple/templates/Page.ss",
+		"/Users/daslicht/Public/silverstripe/capesideport/themes/foundation/templates/Page.ss",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/code/Page/ShipPage.php",
+		"/Users/daslicht/Public/silverstripe/capesideport/themes/simple/templates/Layout/ShipPage.ss",
+		"/Users/daslicht/Public/silverstripe/capesideport/themes/foundation/templates/Layout/ShipPage.ss",
+		"/Users/daslicht/Public/silverstripe/capesideport/composer.json",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/_config/config.yml",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/_config.php",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/code/DataObjects/ShipImage.php",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/iView/css/skin 3/style.css",
+		"/Users/daslicht/Public/iView/js/iview.js",
+		"/Users/daslicht/Public/iView/index2.html",
+		"/Users/daslicht/Public/iView/index3.html",
+		"/Users/daslicht/Public/iView/index4.html",
+		"/Users/daslicht/Public/iView/index5.html",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/iView-master/css/styles.css",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/iView-master/js/iview.js",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/iView-master/index3.html",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/slider/styles/style.css",
+		"/Users/daslicht/Public/silverstripe/capesideport/framework/ss.log",
+		"/Users/daslicht/Public/iView/index.html",
+		"/Users/daslicht/Public/iView/js/iview.min.js",
+		"/Users/daslicht/Public/iView/js/jquery-2.1.1.min.js",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/galleria/themes/azur/galleria.azur.css",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/galleria/galleria-1.3.3.min.js",
+		"/Users/daslicht/Public/silverstripe/capesideport/assets/galleria/themes/azur/galleria.azur.min.js",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Pages/ProjectsPage.php",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/code/ShipPage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/DataObjects/Producer.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Pages/ShipPage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/DataObjects/ShipImage.php",
+		"/Users/daslicht/Public/silverstripe/capesideport/mysite/code/ShipImage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Pages/StaffPage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/DataObjects/Ship.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/MyAdmin.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/ProjectsPage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Mentor.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/StaffPage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Student/Student.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Student.php",
+		"/Users/daslicht/Public/Processwire-Tutorials/README.md",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/Project.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/ProjectsHolder.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/StaffHolder.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/Project.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Includes/StudentInfo.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/ProjectsHolder.php",
+		"/Users/daslicht/Desktop/ProductImage.php",
+		"/Users/daslicht/Public/modx-2.2.14-pl/config.core.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/Page_results.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/ArticlePage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/ArticleHolder.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/StaffHolder.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/StaffPage.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/HomePage.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/HomePage.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/_config/config.yml",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/_config.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Includes/Header.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/css/form.css",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/code/BrowserPollSubmission.php",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/ArticlePage.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Layout/ArticleHolder.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Includes/ArticleTeaser.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/themes/simple/templates/Includes/SideBar.ss",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/mysite/.htaccess",
+		"/Users/daslicht/Public/SilverStripe-cms-v3.1.5/.htaccess",
+		"/Users/daslicht/node/e4hbs-kiss/main.js",
+		"/Users/daslicht/sites/csp/app/config/parameters.yml",
+		"/Users/daslicht/sites/csp/src/DasLicht/CapeSidePortBundle/Entity/FleetLogo.php",
+		"/Users/daslicht/sites/csp/src/DasLicht/CapeSidePortBundle/Entity/Ship.php",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/F60A528A-B3F4-4E5E-A4A6-2F5CEDD791F6/custom.css",
+		"/Users/daslicht/Desktop/category item default k2 temaplte rest.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/1DAF2065-CBF3-4C11-B0FF-603D68347E1D/category.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/B2722166-72BE-440A-B82B-27040A73344E/category_item.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/72C42056-6CCE-4D69-8372-784C43C3E860/category_item.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/7B890AD8-272A-49B2-9DB0-8D93699B77F3/category.php",
+		"/Users/daslicht/Public/test.html",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/84ADB329-3646-4C8F-911E-A9365F0AC2C2/custom.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/164690E1-1187-4F82-AFC1-80EC75E85327/custom.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/91980170-4CA0-4DC0-9F21-485A686EF697/css_var.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/7DDB13A4-50BF-4136-8ECD-76CA4276EF50/item.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/D48CAA7D-998B-45E7-A1D1-BC4A1EBF3852/en-GB.mod_jak2filter.ini",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/A084F622-4B50-4456-A6CB-84BCE6802172/de-DE.mod_jak2filter.ini",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/7B2B5A67-5416-4E6A-AC42-5AE26D6B2A17/de-DE.mod_jak2filter.ini",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/938B5817-75DE-4927-9C72-E880DE6299EE/de-DE.mod_jak2filter.ini",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/A227C757-DFD7-4620-9423-12CB1770F8A7/de-DE.mod_jak2filter.ini",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/D26E09F6-A945-46AC-B69C-150F8C1C054F/custom.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/8AEA7A57-5AF1-430C-BEC0-CDCB9E856DB0/css_var.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/7EBC6572-CD3A-40CA-9580-821F5B230779/index.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/D391C58B-59EC-4FDA-8D2A-3F52A8D6D0FE/index.php",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/3937A295-AA1D-49A0-8FA1-F31E8C85E565/custom.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/E92ACDBA-4CCA-4F59-977D-0A515CF3F91C/styles.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/5BBCCC08-1997-48D9-8A9E-6FFD21CEB1FA/styles.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/13AAC575-13F8-401E-BAA7-49E5D7B7A72F/styles.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/3252238A-EA27-43F3-A33E-C9F38E28AF98/0.css",
+		"/Users/daslicht/Library/Caches/Cleanup At Startup/Transmit/2772C200-8675-4BBB-B1A7-9D38807AE4F0/styles.css",
+		"/Users/daslicht/node/ansolas.de/helper/main.js",
+		"/Users/daslicht/node/keystone/.foreverignore",
+		"/Users/daslicht/Desktop/style_.css",
+		"/Users/daslicht/node/ansolas.de/public/assets/AnsolasLogo2014_2.svg",
+		"/Users/daslicht/Public/ansolas.de/web/assets/AnsolasLogo2014_2.svg",
+		"/Users/daslicht/node/e4hbs-kiss/views/addPage.hbs",
+		"/Users/daslicht/node/e4hbs-kiss/jsentry.js",
+		"/Users/daslicht/node/e4hbs-kiss/public/addPage.js",
+		"/Users/daslicht/node/e4hbs-kiss/views/partials/head_scripts.hbs",
+		"/Users/daslicht/node/e4hbs-kiss/public/uuid.js",
+		"/Users/daslicht/node/e4hbs/jsentry.js",
+		"/Users/daslicht/node/e4hbs/public/router.js",
+		"/Users/daslicht/node/e4hbs/views/addPage.hbs",
+		"/Users/daslicht/node/e4hbs/shared/templates/detail.hbs",
+		"/Users/daslicht/node/e4hbs/public/addPage.js",
+		"/Users/daslicht/node/e4hbs/views/partials/page/nav.hbs",
+		"/Users/daslicht/node/e4hbs/package.json",
+		"/Users/daslicht/node/e4hbs/views/layouts/main.hbs",
+		"/Users/daslicht/node/e4hbs/public/styles/main.css",
+		"/Users/daslicht/node/e4hbs/main.js",
+		"/Users/daslicht/node/e4hbs/shared/templates/headline.hbs",
+		"/Users/daslicht/node/e4hbs/bower.json",
+		"/Users/daslicht/node/e4hbs/views/partials/head_scripts.hbs",
+		"/Users/daslicht/node/e4hbs/bower_components/sammy/lib/min/sammy-latest.min.js",
+		"/Users/daslicht/node/e4hbs/lib/helpers.js",
+		"/Users/daslicht/node/e4hbs/shared/templates/newPage.hbs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vtemslideshow-link",
+			"iview",
+			"Requirements::css(\"assets/iView/css/skin 1/style.css\");",
+			"	<% require themedCSS('reset') %>\n	<% require themedCSS('typography') %>\n	<% require themedCSS('form') %>\n	<% require themedCSS('layout') %>",
+			"vimeo",
+			"live",
+			"iviewTimer",
+			"height",
+			"2d",
+			"renderSkyscraperItem",
+			"=",
+			"dll",
+			"eee",
+			"</td>",
+			"<td>",
+			"<td >",
+			"th",
+			"itemList",
+			"catItemCategory",
+			"componentheading",
+			"catImage",
+			"find-ship",
+			"featuremanual6",
+			"klatsch",
+			"category",
+			"- Select",
+			"order by",
+			"img",
+			"width",
+			"fadeIn",
+			"sketch",
+			".editor",
+			"moment",
+			"class",
+			"font",
+			"side bar font",
+			"var",
+			"getSlug",
+			"side bar",
+			"side",
+			"sidebar",
+			"side",
+			"font",
+			"sidebar_label",
+			"sidebar",
+			"haupt",
+			"background",
+			"drop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</div>",
+			"<div>",
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "mysite/code/Page/WelcomePage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"auto_name": "HomePage.php",
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mysite/code/Page/ShipPage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "themes/foundation/templates/Layout/ShipPage.ss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1037
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/SilverStripe/SilverStripe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "themes/foundation/templates/Layout/DemoHomePage.ss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SilverStripe/SilverStripe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "themes/foundation/templates/Layout/WelcomePage.ss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1046,
+								1046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SilverStripe/SilverStripe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "themes/foundation/templates/Page.ss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1388,
+								1388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SilverStripe/SilverStripe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "csp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.696798493409,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 227.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "csp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"e4hbs/views/addPage.hbs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

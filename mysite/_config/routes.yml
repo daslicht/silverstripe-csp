@@ -1,0 +1,8 @@
+---
+Name: myroutes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'fastfood//$Action/$ID/$Name': 'FastFood_Controller'
+    'shipdb//$ID': 'ShipPage_Controller'

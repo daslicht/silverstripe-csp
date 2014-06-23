@@ -1,0 +1,537 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9ea87dd2cfe96708c96999a2e14209d6",
+    "packages": [
+        {
+            "name": "ajshort/silverstripe-gridfieldextensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajshort/silverstripe-gridfieldextensions.git",
+                "reference": "1a521a3ce0caaf1b673949a1101288ec2cbee27d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajshort/silverstripe-gridfieldextensions/zipball/1a521a3ce0caaf1b673949a1101288ec2cbee27d",
+                "reference": "1a521a3ce0caaf1b673949a1101288ec2cbee27d",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gridfieldextensions",
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/ajshort/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2014-06-13 01:43:50"
+        },
+        {
+            "name": "colymba/gridfield-bulk-editing-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
+                "reference": "e41282b3d20101bcd08ce5afb15749302db3227e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/e41282b3d20101bcd08ce5afb15749302db3227e",
+                "reference": "e41282b3d20101bcd08ce5afb15749302db3227e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Simplified"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Francois",
+                    "homepage": "http://colymba.com"
+                },
+                {
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                }
+            ],
+            "description": "SilverStripe 3 GridField component to upload images and edit records in bulk",
+            "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
+            "keywords": [
+                "Image upload",
+                "bulk upload",
+                "gridfield bulk upload",
+                "silverstripe"
+            ],
+            "time": "2014-06-17 10:08:07"
+        },
+        {
+            "name": "colymba/gridfield-gallery-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colymba/GridFieldGalleryTheme.git",
+                "reference": "e0301ca42367a6e1300a180846cd758d1a3a81eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colymba/GridFieldGalleryTheme/zipball/e0301ca42367a6e1300a180846cd758d1a3a81eb",
+                "reference": "e0301ca42367a6e1300a180846cd758d1a3a81eb",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "3.*"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Simplified"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Francois",
+                    "homepage": "http://colymba.com"
+                },
+                {
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/colymba/GridFieldGalleryTheme/graphs/contributors"
+                }
+            ],
+            "description": "SilverStripe 3 GridField component adding file or image thumbnail gallery view",
+            "homepage": "https://github.com/colymba/GridFieldGalleryTheme",
+            "keywords": [
+                "gridfield gallery theme",
+                "gridfield image gallery theme",
+                "gridfield theme",
+                "gridfield thumbnail",
+                "gridfield thumbnail view",
+                "silverstripe"
+            ],
+            "time": "2013-08-04 13:22:52"
+        },
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "21c366259a61075dca55210fd78284fcfd648fb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/21c366259a61075dca55210fd78284fcfd648fb7",
+                "reference": "21c366259a61075dca55210fd78284fcfd648fb7",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-06-18 22:05:26"
+        },
+        {
+            "name": "frankmullenger/gallery",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/frankmullenger/silverstripe-gallery.git",
+                "reference": "096651ff77a9807f4cc54d366f8959dca21b312e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/frankmullenger/silverstripe-gallery/zipball/096651ff77a9807f4cc54d366f8959dca21b312e",
+                "reference": "096651ff77a9807f4cc54d366f8959dca21b312e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Frank Mullenger",
+                    "email": "frankmullenger@gmail.com"
+                }
+            ],
+            "description": "SilverStripe Gallery Module",
+            "keywords": [
+                "gallery",
+                "image gallery",
+                "silverstripe"
+            ],
+            "time": "2013-11-12 07:38:10"
+        },
+        {
+            "name": "rywa/silverstripe-foundation-forms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryanwachtl/silverstripe-foundation-forms.git",
+                "reference": "48a4e9c7943629e9e5385544dcabd83fc0621c15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryanwachtl/silverstripe-foundation-forms/zipball/48a4e9c7943629e9e5385544dcabd83fc0621c15",
+                "reference": "48a4e9c7943629e9e5385544dcabd83fc0621c15",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "foundationforms"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT Open Source License"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Wachtl",
+                    "homepage": "http://ryanwachtl.com"
+                }
+            ],
+            "description": "SilverStripe 3 Forms Compatible with Zurb Foundation Framework",
+            "keywords": [
+                "Forms",
+                "silverstripe",
+                "zurbfoundation"
+            ],
+            "time": "2014-02-22 22:15:47"
+        },
+        {
+            "name": "silverstripe-themes/simple",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
+                "reference": "84c1215f914b8c20f924202a2ace2812f28d6c0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/84c1215f914b8c20f924202a2ace2812f28d6c0a",
+                "reference": "84c1215f914b8c20f924202a2ace2812f28d6c0a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0"
+            },
+            "type": "silverstripe-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sara Tušar (Innovaif)",
+                    "homepage": "http://www.saratusar.com"
+                }
+            ],
+            "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
+            "keywords": [
+                "silverstripe",
+                "theme"
+            ],
+            "time": "2013-10-15 22:16:12"
+        },
+        {
+            "name": "silverstripe/cms",
+            "version": "3.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-cms.git",
+                "reference": "3033d454982c5fac5a2089842e767e8866f05737"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/3033d454982c5fac5a2089842e767e8866f05737",
+                "reference": "3033d454982c5fac5a2089842e767e8866f05737",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.2",
+                "silverstripe/framework": "3.1.*"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "classmap": [
+                    "tests/behat/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "SilverStripe",
+                    "homepage": "http://silverstripe.com"
+                },
+                {
+                    "name": "The SilverStripe Community",
+                    "homepage": "http://silverstripe.org"
+                }
+            ],
+            "description": "The SilverStripe Content Management System",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "cms",
+                "silverstripe"
+            ],
+            "time": "2014-05-12 23:13:44"
+        },
+        {
+            "name": "silverstripe/framework",
+            "version": "3.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-framework.git",
+                "reference": "830c10704c98862609dea94400ff48524dffa676"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/830c10704c98862609dea94400ff48524dffa676",
+                "reference": "830c10704c98862609dea94400ff48524dffa676",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "classmap": [
+                    "tests/behat/features/bootstrap"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "SilverStripe",
+                    "homepage": "http://silverstripe.com"
+                },
+                {
+                    "name": "The SilverStripe Community",
+                    "homepage": "http://silverstripe.org"
+                }
+            ],
+            "description": "The SilverStripe framework",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "framework",
+                "silverstripe"
+            ],
+            "time": "2014-05-13 03:06:43"
+        },
+        {
+            "name": "undefinedoffset/sortablegridfield",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UndefinedOffset/SortableGridField.git",
+                "reference": "3f1f5dbdb4cce4b7fb9056819caf895ee45f390d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/3f1f5dbdb4cce4b7fb9056819caf895ee45f390d",
+                "reference": "3f1f5dbdb4cce4b7fb9056819caf895ee45f390d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0.1,<3.2"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "sortablegridfield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ed Chipman",
+                    "homepage": "http://www.edchipman.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds drag and drop functionality to SilverStripe 3.0's GridField",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2014-05-03 20:07:22"
+        },
+        {
+            "name": "wernerkrauss/folderperpage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wernerkrauss/silverstripe-folderperpage.git",
+                "reference": "3413e3f200d80147e80d5c7b17ea489fe7f83b42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wernerkrauss/silverstripe-folderperpage/zipball/3413e3f200d80147e80d5c7b17ea489fe7f83b42",
+                "reference": "3413e3f200d80147e80d5c7b17ea489fe7f83b42",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "folderperpage"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Werner Krauß",
+                    "email": "werner.krauss@netwerkstatt.at",
+                    "homepage": "http://www.netwerkstatt.at",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An extension for automatically creating a folder per page",
+            "keywords": [
+                "extension",
+                "silverstripe"
+            ],
+            "time": "2014-05-20 09:05:32"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "wernerkrauss/folderperpage": 20,
+        "colymba/gridfield-bulk-editing-tools": 20,
+        "colymba/gridfield-gallery-theme": 20,
+        "frankmullenger/gallery": 20,
+        "rywa/silverstripe-foundation-forms": 20,
+        "ajshort/silverstripe-gridfieldextensions": 20
+    },
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": [
+
+    ]
+}

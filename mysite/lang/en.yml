@@ -1,0 +1,41 @@
+en:
+  MyAdmin:
+    MENUTITLE: 'Ship Admin'
+  Country:
+    Name: Country
+    PLURALNAME: Countries
+    SINGULARNAME: Country
+  Page:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: Pags
+    SINGULARNAME: Page
+  Producer:
+    Name: Producer
+    PLURALNAME: Producers
+    SINGULARNAME: Producer
+  ShipHolder:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Ship Holders'
+    SINGULARNAME: 'Ship Holder'
+  ShipImage:
+    PLURALNAME: 'Ship Imags'
+    SINGULARNAME: 'Ship Image'
+  ShipPage:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Ship Pags'
+    SINGULARNAME: 'Ship Page'
+  ShipType:
+    Name: 'Ship Type'
+    PLURALNAME: 'Ship Typs'
+    SINGULARNAME: 'Ship Type'
+  ShippingCompany:
+    Name: 'Shipping Company'
+    PLURALNAME: 'Shipping Companies'
+    SINGULARNAME: 'Shipping Company'
+  SiteTree:
+    PLURALNAME: Pages
+    SINGULARNAME: Page
+  WelcomePage:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Welcome Pags'
+    SINGULARNAME: 'Welcome Page'
