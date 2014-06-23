@@ -120,17 +120,20 @@ class Ship extends DataObject {
 	}
 
 	/**
+	 * Cache for get_by_url_segment() to avoid duplicate SQL queries
+	 *
 	 * @var array
 	 */
-	private static $_cached_get_by_url = array();
+	protected static $_cached_get_by_url = array();
 
 	/**
-	 * @param $str
-	 * @return Product|Boolean
+	 * @param string $str
+	 * @param int $excludeID
+	 * @return static|Boolean
 	 */
 	public static function get_by_url_segment($str, $excludeID = null) {
-		if (!isset(self::$_cached_get_by_url[$str])) {
-			$list = self::get()->filter('URLSegment', $str);
+		if (!isset(static::$_cached_get_by_url[$str])) {
+			$list = static::get()->filter('URLSegment', $str);
 			if ($excludeID) {
 				$list = $list->exclude('ID', $excludeID);
 			}

@@ -25,9 +25,16 @@ class Page_Controller extends ContentController {
 
 	public function init() {
 		parent::init();
+		static::requirements();
+	}
+
+	/**
+	 * This will be called by Page->init() and Ship->init() to include shared requirements
+	 */
+	public static function requirements() {
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
-		// Requirements::javascript("http://code.jquery.com/jquery-2.1.1.min.js");		
+		// Requirements::javascript("http://code.jquery.com/jquery-2.1.1.min.js");
 	}
 }
 
