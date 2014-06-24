@@ -32,6 +32,7 @@
 			</li>
 			<% if not $Last %><li class="divider"></li><% end_if %>
 			<% end_loop %>
+
 		</ul>
 		<%-- Right Nav Section --%>
 		<ul class="right">

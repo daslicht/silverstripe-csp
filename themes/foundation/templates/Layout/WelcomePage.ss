@@ -12,8 +12,8 @@
     <div id="iview">
         <% loop $Images %>
             <div data-iview:thumbnail="" data-iview:image="$Image.URL">
-                <div style="text-align:left"class="iview-caption" data-x="0" data-y="80%" data-width="100%" data-height="30" data-transition="random">$ShipPage.Title </div>
-                <a class="vtemslideshow-link" href="$ShipPage.LINK">&nbsp;</a> 
+                <div style="text-align:left"class="iview-caption" data-x="0" data-y="80%" data-width="100%" data-height="30" data-transition="random">$Ship.Title </div>
+                <a class="vtemslideshow-link" href="$Up.Link">&nbsp;</a> 
             </div>        
         <% end_loop %>
     </div>

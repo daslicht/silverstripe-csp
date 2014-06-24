@@ -109,6 +109,10 @@ class Ship extends DataObject {
 		return $fields;
 	}
 
+	 public function Link() { 
+	 	return singleton('Ship_Controller')->Link($this->URLSegment); 
+	 }
+
 
 	public function onBeforeWrite() {
 		parent::onBeforeWrite();

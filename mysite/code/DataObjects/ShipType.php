@@ -8,7 +8,7 @@ class ShipType extends DataObject {
 	];
 
 	private static $has_many = [
-		'Ship' => 'ShipPage'
+		'Ship' => 'Ship'
 	];
 
 	static $searchable_fields = array(

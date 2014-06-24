@@ -22,6 +22,10 @@ class WelcomePage_Controller extends Page_Controller {
 		Requirements::javascript("assets/iView/js/iview.js");
 		Requirements::javascript("assets/ShipPage.js");
 	}
+
+	// public function Link($action = null) { 
+	// 	return Controller::join_links('/shipdb', $action); 
+	// }
 }
 
 

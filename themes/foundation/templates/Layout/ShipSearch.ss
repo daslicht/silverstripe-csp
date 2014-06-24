@@ -1,13 +1,12 @@
 <% include SideBar %>
-<div class="content-container unit size3of4 lastUnit">
+<div class="">
     <article>
         <h1>$Title</h1>
         $Content       
         <div class="content">$Content</div>
     </article>
-    $SearchForm
+    $Form
     <% loop $SearchResults %>
         <% include ShipTeaser %>
-    <% end_loop %>
-   
+    <% end_loop %>   
 </div>

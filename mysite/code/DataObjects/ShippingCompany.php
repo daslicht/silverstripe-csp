@@ -8,7 +8,7 @@ class ShippingCompany extends DataObject {
 	];
 
 	private static $has_many = [
-		'Ship' => 'ShipPage'
+		'Ship' => 'Ship'
 	];
 
 	private static $field_labels = array(

@@ -13,7 +13,7 @@ class Country extends DataObject {
 	// ];
 
 	private static $has_many = [
-		'Ship' => 'ShipPage'
+		'Ship' => 'Ship'
 	];
 
 
