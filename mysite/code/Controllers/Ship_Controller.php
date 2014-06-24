@@ -1,4 +1,7 @@
 <?php
+class Wrapper extends ContentController {
+
+}
 
 class Ship_Controller extends Controller {
 	private static $url_handlers = array(
@@ -6,15 +9,17 @@ class Ship_Controller extends Controller {
 		'Search' => 'Search',
 		'$Slug' => 'handleShipRequest'
 	);
+
+	public function getMenu($level = 1) {
+		return singleton('ContentController')->getMenu($level);
+	}
+
 	private static $allowed_actions = array(
 		'handleShipRequest',
 		'Search',
 	);
 
 	public function Link($action = null) { 
-
-	
-
 		return Controller::join_links('/shipdb', $action); 
 	}
 
