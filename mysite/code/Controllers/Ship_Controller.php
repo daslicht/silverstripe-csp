@@ -1,7 +1,4 @@
 <?php
-class Wrapper extends ContentController {
-
-}
 
 class Ship_Controller extends Controller {
 	private static $url_handlers = array(
@@ -9,9 +6,19 @@ class Ship_Controller extends Controller {
 		'Search' => 'Search',
 		'$Slug' => 'handleShipRequest'
 	);
-
+	
+	/**
+	 * Method to be able to use $getMenu(1) in template
+	 */
 	public function getMenu($level = 1) {
 		return singleton('ContentController')->getMenu($level);
+	}
+	
+	/**
+	 * Method to be able to use $SiteConfig in template
+	 */
+	public function SiteConfig() {
+		return SiteConfig::current_site_config();	
 	}
 
 	private static $allowed_actions = array(
@@ -25,7 +32,6 @@ class Ship_Controller extends Controller {
 
 	public function init() {
 		parent::init();
-
 		// also load requirements included in page (eg jquery)
 		Page_Controller::requirements();
 
@@ -48,12 +54,9 @@ class Ship_Controller extends Controller {
 		$slug = Convert::raw2sql($r->param('Slug'));
 		$ship = Ship::get_by_url_segment($slug);
 		if ($ship && $ship->exists()) {
-			$data = $ship->customise(array(
-				// ad SiteConfig to be able to use it in template
-				'SiteConfig' => SiteConfig::current_site_config(),
-				// put in some more data here, eg:
-				// 'Content' => '<h1 style="font-size: 160px">Zauberfisch is super awesome</h1>',
-			));
+			// merge the ship into the current controller
+			// so we have the ship, but also access to the methods of the controller
+			$data = $this->customise($ship);
 			return $data->renderWith(array('Ship', 'Page'));
 		}
 		// no ship found, return a 404 error page
